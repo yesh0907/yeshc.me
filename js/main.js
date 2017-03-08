@@ -3,6 +3,9 @@ $(document).ready(function() {
 	$('.date').text(date.getFullYear());
 
 	var options = [
+		{selector: '.my-pic', offset: 0, callback: function(el) {
+			Materialize.fadeInImage($(el));
+		} },
 		{selector: '.header', offset: 0, callback: function(el) {
 			Materialize.fadeInImage($(el));
 		} },
