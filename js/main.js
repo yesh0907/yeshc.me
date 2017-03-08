@@ -3,21 +3,21 @@ $(document).ready(function() {
 	$('.date').text(date.getFullYear());
 
 	var options = [
-		{selector: '.my-pic', offset: 0, callback: function(el) {
-			Materialize.fadeInImage($(el));
-		} },
-		{selector: '.header', offset: 0, callback: function(el) {
-			Materialize.fadeInImage($(el));
-		} },
-		{selector: '#about', offset: 0, callback: function(el) {
-			Materialize.fadeInImage($(el));
-		} },
-		{selector: '#projects', offset: 0, callback: function(el) {
-			Materialize.fadeInImage($(el));
-		} },
-		{selector: '#contact', offset: 0, callback: function(el) {
-			Materialize.fadeInImage($(el));
-		} }
+	{selector: '.my-pic', offset: 0, callback: function(el) {
+		Materialize.fadeInImage($(el));
+	} },
+	{selector: '.header', offset: 0, callback: function(el) {
+		Materialize.fadeInImage($(el));
+	} },
+	{selector: '#about', offset: 0, callback: function(el) {
+		Materialize.fadeInImage($(el));
+	} },
+	{selector: '#projects', offset: 0, callback: function(el) {
+		Materialize.fadeInImage($(el));
+	} },
+	{selector: '#contact', offset: 0, callback: function(el) {
+		Materialize.fadeInImage($(el));
+	} }
 	];
 	Materialize.scrollFire(options);
 
@@ -50,11 +50,15 @@ $(document).ready(function() {
 				else {
 					Materialize.toast('Failed to send email. Try again later', 4000);
 				}
-				$('#name').val('');
-				$('#subject').val('');
-				$('#email').val('');
-				$('#message').val('');
+			},
+			error: function(error) {
+				console.error(error);
 			}
-		})
-	})
+		});
+
+		$('#name').val('');
+		$('#subject').val('');
+		$('#email').val('');
+		$('#message').val('');
+	});
 });
