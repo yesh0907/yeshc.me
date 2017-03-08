@@ -1,0 +1,142 @@
+.linkedin {
+	margin-left: 15px;
+	margin-top: -10px;
+}
+
+.space {
+	margin-bottom: 25px;
+}
+
+.break {
+	position: relative;
+	transform: rotate(-1.7deg);
+	-ms-transform: rotate(-1.7deg);
+	-webkit-transform: rotate(-1.7deg);
+	-o-transform: rotate(-1.7deg);
+	-moz-transform: rotate(-1.7deg);
+	background-color: #fff;
+	content: "";
+	z-index: 3;
+	display: inline-block;
+	height: 70px;
+	bottom: 0;
+	padding: 0;
+	width: 101%;
+	margin-top: 20px;
+}
+
+.sub-header {
+	margin-top: -1vh;
+}
+
+.my-pic {
+	width: 57%;
+}
+
+@media screen and (max-width: 768px) {
+	.quick-link {
+		width: 50%;
+	}
+
+	.my-pic {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 601px) {
+	.row .col.offset-m4 {
+		margin-left: 35%;
+	}
+}
+
+.vitalic {
+	width: 210px !important; 
+	height: 210px; 
+	margin: 0 auto;
+}
+
+.billwise {
+	width: 210px !important;
+	height: 210px;
+	margin: 0 auto;
+}
+
+.mrst {
+	height: 210px;
+}
+
+.tquotes {
+	width: 90% !important;
+	height: 197px;
+	margin: 2% 5%;
+}
+
+span.card-title {
+	color: white !important;
+}
+
+.image-hover {
+	background: rgba(224, 224, 224, .9);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+}
+
+.image-hover:hover {
+	opacity: 1;
+}
+
+.image-hover-contents {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 25%;
+	left: -1%;
+}
+
+.image-hover-contents > i {
+	margin: 0 auto;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+	color: #607d8b;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #607d8b;
+	box-shadow: 0 1px 0 0 #607d8b;
+}
+
+/* label focus color */
+.input-field input[type=email]:focus + label {
+	color: #607d8b;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+	border-bottom: 1px solid #607d8b;
+	box-shadow: 0 1px 0 0 #607d8b;
+}
+
+/* label focus color */
+.input-field textarea:focus + label {
+	color: #607d8b !important;
+}
+/* label underline focus color */
+.input-field textarea:focus {
+	border-bottom: 1px solid #607d8b !important;
+	box-shadow: 0 1px 0 0 #607d8b !important;
+}
+
+.footer-linkedin {
+	margin-left: 5px;
+}
+
+.footer-linkedin-text {
+	margin-left: 22px;
+}
