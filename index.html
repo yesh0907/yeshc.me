@@ -241,41 +241,43 @@
 					<h3 class="center blue-grey-text text-darken-2">Contact</h3>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col s12">
-					<div class="row">
-						<div class="input-field col s12">
-							<input type="text" placeholder="Name" class="validate" id="name">
-							<label for="name">Name</label>
+			<form action="//formspree.io/yeshc0907@gmail.com" method="POST" id="contactForm">
+				<div class="row">
+					<div class="col s12">
+						<div class="row">
+							<div class="input-field col s12">
+								<input type="text" placeholder="Name" id="name" name="name">
+								<label for="name">Name</label>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input type="email" id="email" placeholder="bob@gmail.com" class="validate">
-							<label for="email" data-error="invalid email" data-success="">Email</label>
+						<div class="row">
+							<div class="input-field col s12">
+								<input type="email" id="email" placeholder="bob@gmail.com" class="validate" name="email">
+								<label for="email" data-error="invalid email" data-success="">Email</label>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input type="text" class="validate" id="subject" placeholder="Subject">
-							<label for="subject">Subject</label>
+						<div class="row">
+							<div class="input-field col s12">
+								<input type="text" id="subject" placeholder="Subject" name="subject">
+								<label for="subject">Subject</label>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<textarea id="message" class="materialize-textarea"></textarea>
-							<label for="message">Message</label>
+						<div class="row">
+							<div class="input-field col s12">
+								<textarea id="message" class="materialize-textarea" name="message"></textarea>
+								<label for="message">Message</label>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col s12">
-							<button class="btn blue-grey waves-effect waves-light" id="send">
-								Send <i class="material-icons right">send</i>
-							</button>
+						<div class="row">
+							<div class="col s12">
+								<button type="submit" class="btn blue-grey waves-effect waves-light" id="send">
+									Send <i class="material-icons right">send</i>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</form>
 		</div>
 	</div>
 

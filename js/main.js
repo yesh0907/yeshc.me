@@ -33,32 +33,4 @@ $(document).ready(function() {
 			})
 		}
 	});
-
-	$('#send').click(function(e) {
-		e.preventDefault();
-
-		$.ajax({
-			url: 'php/mail.php',
-			method: 'POST',
-			data: { name: $('#name').val(), subject: $('#subject').val(), email: $('#email').val(), message: $('#message').val() },
-			success: function(data) {
-				data = JSON.parse(data);
-
-				if (data['error'] === 'false') {
-					Materialize.toast('Email Successfully Sent!', 4000);
-				}
-				else {
-					Materialize.toast('Failed to send email. Try again later', 4000);
-				}
-			},
-			error: function(error) {
-				console.log(error);
-			}
-		});
-
-		$('#name').val('');
-		$('#subject').val('');
-		$('#email').val('');
-		$('#message').val('');
-	});
 });
