@@ -52,7 +52,7 @@ $(document).ready(function() {
 				}
 			},
 			error: function(error) {
-				console.error(error);
+				console.log(error);
 			}
 		});
 
