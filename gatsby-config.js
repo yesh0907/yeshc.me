@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Yesh Chandiramani',
     description:
-      'Yesh Chandiramani is a software engineer with george\'s curiosity',
+      'Yesh Chandiramani is a California based software engineer that strives to make his mark upon the world.',
     siteUrl: 'https://yeshc.me', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',

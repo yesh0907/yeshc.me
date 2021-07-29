@@ -59,17 +59,17 @@ const mixins = {
     text-decoration-skip-ink: auto;
     position: relative;
     transition: var(--transition);
-    color: var(--light-black);
+    color: var(--bright-orange);
     &:hover,
     &:focus,
     &:active {
-      color: var(--light-black);
+      color: var(--bright-orange);
       outline: 0;
       &:after {
         width: 100%;
       }
       & > * {
-        color: var(--light-black) !important;
+        color: var(--bright-orange) !important;
         transition: var(--transition);
       }
     }
@@ -80,7 +80,7 @@ const mixins = {
       height: 1px;
       position: relative;
       bottom: 0.37em;
-      background-color: var(--light-black);
+      background-color: var(--bright-orange);
       transition: var(--transition);
       opacity: 0.5;
     }

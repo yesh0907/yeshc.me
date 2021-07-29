@@ -57,7 +57,7 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build reality</h3>;
   const four = (
     <p>
-      I'm a software engineer motivated by creating technology that transforms reality. 
+      I'm a California based software engineer motivated by creating technology that transforms reality. 
       Currently, I'm focused on aiding the lives of gig workers at{' '}
       <a href="https://worksolo.com" target="_blank" rel="noreferrer">
         Solo
