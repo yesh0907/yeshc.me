@@ -4,6 +4,9 @@
 <h1 align="center">
   yeshc.me - my personal site
 </h1>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2eaa9ecb-898e-4da7-b227-f51600ec6c3c/deploy-status)](https://app.netlify.com/sites/yeshc/deploys)
+
 <p align="center">
   made with GatsbyJS
   <br />
