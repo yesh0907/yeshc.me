@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Directed a team of four from my fraternity (Delta Sigma Pi) to analyze the Spotify data of the chapter’s members and create our own version of Spotify’s Wrapped.
+A simple data science project that analyzes the Spotify data of the Delta Sigma Pi - Pi Chi chapter’s members to create our own version of Spotify’s Wrapped.

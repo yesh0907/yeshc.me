@@ -55,7 +55,7 @@ const Contact = () => {
 
       <p>
         I'm always looking for new opportunities, so please reach out.
-        Even if you just have a question or want to say hi, I'll try my best to get back to you!
+        Even if it's just a question or to say hi, I will get back to you as soon as possible.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

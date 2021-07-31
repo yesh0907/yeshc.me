@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Led a hackathon team to build a browser extension that mines Monero and pools the mined cryptocurrency to payout meaningful GitHub contributions through a blockchain running on the WebRTC framework.
+A browser extension that mines Monero and pools the mined cryptocurrency to payout meaningful GitHub contributions through a blockchain running on the WebRTC framework.

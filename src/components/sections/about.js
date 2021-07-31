@@ -126,16 +126,14 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Yesh and I am a second year CS student at UC Santa Cruz. My
-              interest in programming started back in 2013 when I started to learn Python
-              on Codecademy. As soon as I could make a computer say my name, I had to desire 
-              to keep going and push the limits of what I could make a computer do!
+              interest in programming started way back in 2013 when I started learning Python
+              on Codecademy. From the time I could make a computer say my name, I wondered 
+              what more I could make a computer do! 
             </p>
 
             <p>
-              Over the years, I've been fortunate enough to have worked on
-              several projects and help two startups grow. My main focus these 
-              days is building enterpise applications that help companies bootstrap
-              their business.
+              Over the years, I've worked on several projects and helped two startups grow their business. 
+              My primary focus these days is trying to break into the edtech space to create life long learners. 
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
