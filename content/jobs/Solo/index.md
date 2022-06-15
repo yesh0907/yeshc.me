@@ -3,7 +3,7 @@ date: '2021-08-24'
 title: 'Software Engineer Intern'
 company: 'Solo'
 location: 'Seattle, WA'
-range: 'May 2021 - Present'
+range: 'May - August 2021'
 url: 'https://www.worksolo.com/'
 ---
 

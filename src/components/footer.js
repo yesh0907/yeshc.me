@@ -84,11 +84,24 @@ const Footer = () => (
 
     <StyledCredit tabindex="-1">
       <div>
-        <span>The Y in the logo was made by<a href="https://www.freepik.com" title="Freepik">Freepik</a>from<a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
+        <span>
+          The Y in the logo was made by
+          <a href="https://www.freepik.com" title="Freepik">
+            Freepik
+          </a>
+          from
+          <a href="https://www.flaticon.com/" title="Flaticon">
+            www.flaticon.com
+          </a>
+        </span>
         <br />
-        <span>Designed by<a href="https://github.com/bchiang7/v4">Brittany Chiang</a></span>
+        <span>
+          Designed by<a href="https://github.com/bchiang7/v4">Brittany Chiang</a>
+        </span>
         <br />
-        <span>Modified by<a href="https://github.com/yesh0907">Yesh Chandiramani</a></span>
+        <span>
+          Modified by<a href="https://github.com/yesh0907">Yesh Chandiramani</a>
+        </span>
       </div>
     </StyledCredit>
   </StyledFooter>

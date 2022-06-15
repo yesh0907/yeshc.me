@@ -54,16 +54,15 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Yesh Chandiramani.</h2>;
-  const three = <h3 className="big-heading">Coding Addict and Student</h3>;
+  const three = <h3 className="big-heading">Coding Addict and Scholar</h3>;
   const four = (
     <p>
-      I'm a California based software engineer with a passion for learning
-      and a dream to become an entrepreneur.
-      At the moment, I'm focused on aiding the lives of gig workers at{' '}
-      <a href="https://worksolo.com" target="_blank" rel="noreferrer">
-        Solo
-      </a>
-      .
+      I'm a California based software engineer with a passion for learning and a dream to become an
+      entrepreneur. At the moment, I'm working on the{' '}
+      <a href="https://www.ubereats.com/" target="_blank" rel="noreferrer">
+        Uber Eat's
+      </a>{' '}
+      platform as a Software Engineer Intern.
     </p>
   );
   const five = (
