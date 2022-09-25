@@ -42,6 +42,10 @@ const StyledHeroSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  .highlight {
+    color: var(--bright-orange);
+  }
 `;
 
 const Hero = () => {
@@ -57,12 +61,9 @@ const Hero = () => {
   const three = <h3 className="big-heading">Coding Addict and Scholar</h3>;
   const four = (
     <p>
-      I'm a California based software engineer with a passion for learning and a dream to become an
-      entrepreneur. At the moment, I'm working on the{' '}
-      <a href="https://www.ubereats.com/" target="_blank" rel="noreferrer">
-        Uber Eat's
-      </a>{' '}
-      platform as a Software Engineer Intern.
+      I'm a <span className="highlight">California-based software engineer</span> with a passion for learning and a dream to become an
+      entrepreneur. Currently, I'm completing the third year of my computer science degree at UCSC
+      and seeking software engineering internships for Summer 2023 at <span className="highlight">blockchain-related</span> companies.
     </p>
   );
   const five = (

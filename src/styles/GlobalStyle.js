@@ -20,8 +20,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background-color: var(--lightest-navy);
-    color: var(--lightest-slate);
+    background-color: var(--bright-orange);
+    color: var(--white);
   }
 
   :focus {

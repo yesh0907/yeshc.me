@@ -115,7 +115,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Python', 'Ruby on Rails', 'Node.js', 'Django'];
+  const skills = ['JavaScript (ES6+)', 'React', 'Python', 'Ruby on Rails', 'Node.js', 'Django', 'Golang', 'Kafka'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -132,9 +132,10 @@ const About = () => {
             </p>
 
             <p>
-              Over the years, I've worked on several projects and helped two startups grow their
-              business. My primary focus these days is trying to break into the edtech space to
-              create life long learners.
+              Over the years, I've worked on several projects, helped two startups grow their
+              business, and experienced the software development process at a big tech company.
+              My primary focus these days is to learn more about distrubuted systems and to
+              contribute to the development of blockchain technology.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
