@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2'
 title: 'Commit Coin'
 cover: './commitcoin.png'
 github: 'https://github.com/yesh0907/CommitCoin-Core'

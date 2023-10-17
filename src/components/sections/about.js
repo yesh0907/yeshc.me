@@ -115,7 +115,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Python', 'Ruby on Rails', 'Node.js', 'Django', 'Golang', 'Kafka'];
+  const skills = ['Typescript', 'Python', 'NextJS', 'Golang', 'React', 'Rust'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -125,17 +125,17 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Yesh and I am a third year CS student at UC Santa Cruz. My interest
-              in programming started way back in 2013 when I started learning Python on Codecademy.
-              From the time I could make a computer say my name, I wondered what more I could make a
-              computer do!
+              Hello! My name is Yesh and I am in my last year of my CS degree at UC Santa Cruz. My
+              interest in programming started way back in 2013 when I started learning Python on
+              Codecademy. From the time I could make a computer say my name, I wondered what more I
+              could make a computer do!
             </p>
 
             <p>
-              Over the years, I've worked on several projects, helped two startups grow their
-              business, and experienced the software development process at a big tech company.
-              My primary focus these days is to learn more about distrubuted systems and to
-              contribute to the development of blockchain technology.
+              Over the years, I've worked on several projects, helped three startups grow their
+              business, and experienced the software development process at a big tech company. My
+              primary focus these days is to learn more about developing great software products
+              from the ground up. In the future, I want to apply my skills to build my own startup.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

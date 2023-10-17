@@ -61,9 +61,10 @@ const Hero = () => {
   const three = <h3 className="big-heading">Coding Addict and Scholar</h3>;
   const four = (
     <p>
-      I'm a <span className="highlight">California-based software engineer</span> with a passion for learning and a dream to become an
-      entrepreneur. Currently, I'm completing the third year of my computer science degree at UCSC
-      and seeking software engineering internships for Summer 2023 at <span className="highlight">blockchain-related</span> companies.
+      I'm a <span className="highlight">New York-based software engineer</span> with a passion for
+      learning and a goal to become an entrepreneur. Currently, I'm in my last year of my CS degree
+      @ UC Santa Cruz and seeking{' '}
+      <span className="highlight">2024 new grad software engineering roles.</span>
     </p>
   );
   const five = (
