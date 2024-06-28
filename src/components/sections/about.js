@@ -125,10 +125,13 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Yesh and I am in my last year of my CS degree at UC Santa Cruz. My
-              interest in programming started way back in 2013 when I started learning Python on
-              Codecademy. From the time I could make a computer say my name, I wondered what more I
-              could make a computer do!
+              Hello! My name is Yesh and I am a full-stack software engineer at{' '}
+              <a href="https://dispatch.co" target="_blank" rel="noreferrer">
+                Dispatch
+              </a>
+              . My interest in programming started way back in 2013 when I started learning Python
+              on Codecademy. From the time I could make a computer say my name, I wondered what more
+              I could make a computer do!
             </p>
 
             <p>

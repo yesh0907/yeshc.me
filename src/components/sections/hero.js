@@ -62,9 +62,12 @@ const Hero = () => {
   const four = (
     <p>
       I'm a <span className="highlight">New York-based software engineer</span> with a passion for
-      learning and a goal to become an entrepreneur. Currently, I'm in my last year of my CS degree
-      @ UC Santa Cruz and seeking{' '}
-      <span className="highlight">2024 new grad software engineering roles.</span>
+      learning and a goal to become an entrepreneur. Currently, I'm a full-stack software engineer
+      at{' '}
+      <a href="https://dispatch.co" target="_blank" rel="noreferrer">
+        Dispatch
+      </a>
+      .
     </p>
   );
   const five = (
