@@ -62,10 +62,9 @@ const Hero = () => {
   const four = (
     <p>
       I'm a <span className="highlight">New York-based software engineer</span> with a passion for
-      learning and a goal to become an entrepreneur. Currently, I'm a full-stack software engineer
-      at{' '}
-      <a href="https://dispatch.co" target="_blank" rel="noreferrer">
-        Dispatch
+      learning and a goal to become an entrepreneur. Currently, I'm an AI Engineer at{' '}
+      <a href="https://harmonic.ai" target="_blank" rel="noreferrer">
+        Harmonic AI
       </a>
       .
     </p>

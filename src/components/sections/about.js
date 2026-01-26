@@ -125,9 +125,9 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Yesh and I am a full-stack software engineer at{' '}
-              <a href="https://dispatch.co" target="_blank" rel="noreferrer">
-                Dispatch
+              Hello! My name is Yesh and I am an AI Engineer at{' '}
+              <a href="https://harmonic.ai" target="_blank" rel="noreferrer">
+                Harmonic AI
               </a>
               . My interest in programming started way back in 2013 when I started learning Python
               on Codecademy. From the time I could make a computer say my name, I wondered what more
@@ -135,10 +135,11 @@ const About = () => {
             </p>
 
             <p>
-              Over the years, I've worked on several projects, helped three startups grow their
-              business, and experienced the software development process at a big tech company. My
-              primary focus these days is to learn more about developing great software products
-              from the ground up. In the future, I want to apply my skills to build my own startup.
+              Over the years, I've worked on several projects, helped startups grow their business,
+              and experienced the software development process at a big tech company. My primary
+              focus these days is building AI-powered products and learning how to develop great
+              software from the ground up. In the future, I want to apply my skills to build my own
+              startup.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

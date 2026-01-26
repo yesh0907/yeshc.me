@@ -1,12 +1,12 @@
 ---
 date: '2023-08-25'
 title: 'Software Engineer Intern'
-company: 'Dispatch'
+company: 'Dispatch (Intern)'
 location: 'New York, NY'
 range: 'June - August 2023'
 url: 'https://dispatch.co/'
 ---
 
-- Deployed a set of Solidity smart contracts to Ethereum and Polygon that reduced usage of blockchain provider API by 99%
-- Implemented an event tracking system in Typescript to gain insight into user behavior for validating product hypothesis
-- Assisted with documenting 10 API endpoints using the OpenAPI specification for customers to write custom integrations
+- Deployed a set of Solidity smart contracts on Ethereum and Polygon that reduced an expensive 3rd party API query by 99%
+- Designed an analytics system using TypeScript in NestJS to allow merchants to gain insights on how users engage with their product checkout page
+- Extended internal GraphQL endpoints into OpenAPI specified REST endpoints to allow 3rd party access to Dispatch's SDK
