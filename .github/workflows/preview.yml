@@ -44,7 +44,7 @@ jobs:
           script: |
             if (!process.env.PREVIEW_URL) return;
             const marker = '<!-- yeshc-preview -->';
-            const body = `${marker}\nPreview: ${process.env.PREVIEW_URL}/v2/`;
+            const body = `${marker}\nPreview: ${process.env.PREVIEW_URL}/`;
             const comments = await github.paginate(github.rest.issues.listComments, {
               owner: context.repo.owner,
               repo: context.repo.repo,

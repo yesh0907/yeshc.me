@@ -2,7 +2,7 @@
 
 Personal site for Yesh Chandiramani, rebuilt with Astro, TypeScript, Tailwind CSS, and Cloudflare Workers Static Assets.
 
-The v2 site is deployed at [yeshc.me/v2](https://yeshc.me/v2), leaving the current root site untouched.
+The site is deployed at [mysite.yeshc.workers.dev](https://mysite.yeshc.workers.dev).
 
 ## Development
 

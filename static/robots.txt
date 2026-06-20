@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yeshc.me/v2/sitemap-index.xml
+Sitemap: https://mysite.yeshc.workers.dev/sitemap-index.xml
