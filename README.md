@@ -1,16 +1,22 @@
-<div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/yesh0907/yeshc.me/main/src/images/logo.png" width="100" />
-</div>
-<h1 align="center">
-  yeshc.me - my personal site
-</h1>
+# yeshc.me
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2eaa9ecb-898e-4da7-b227-f51600ec6c3c/deploy-status)](https://app.netlify.com/sites/yeshc/deploys)
+Personal site for Yesh Chandiramani, rebuilt with Astro, TypeScript, Tailwind CSS, and Cloudflare Workers Static Assets.
 
-<p align="center">
-  made with GatsbyJS
-  <br />
-  Code for the skeleton of the theme is by <a href="brittanychiang.com">Brittany Chiang</a>
-  <br />
-  The Y logo is a free SVG made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-</p>
+The v2 site is deployed at [yeshc.me/v2](https://yeshc.me/v2), leaving the current root site untouched.
+
+## Development
+
+```sh
+pnpm install
+pnpm dev
+```
+
+## Validation
+
+```sh
+pnpm check
+pnpm build
+pnpm deploy:dry-run
+```
+
+Production deployments run from `main`. Pull requests upload versioned Worker previews. Both workflows require `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repository secrets.

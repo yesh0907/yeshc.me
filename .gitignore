@@ -6,6 +6,9 @@ package-lock.json
 
 # Build directory
 /public
+/dist
+/.astro
+/.wrangler
 .DS_Store
 
 .vscode/

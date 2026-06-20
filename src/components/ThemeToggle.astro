@@ -1,0 +1,30 @@
+<button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+  <svg class="theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="3.25"></circle>
+    <path d="M12 2.75v1.5M12 19.75v1.5M2.75 12h1.5M19.75 12h1.5M5.46 5.46l1.06 1.06M17.48 17.48l1.06 1.06M5.46 18.54l1.06-1.06M17.48 6.52l1.06-1.06"></path>
+  </svg>
+  <svg class="theme-icon-dark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M19.7 15.1A8.2 8.2 0 0 1 8.9 4.3a.75.75 0 0 0-.88-1.04A9.25 9.25 0 1 0 20.74 15.98a.75.75 0 0 0-1.04-.88Z"></path>
+  </svg>
+</button>
+
+<script>
+  const syncThemeToggleLabels = () => {
+    const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    document.querySelectorAll<HTMLButtonElement>('.theme-toggle').forEach(button => {
+      button.setAttribute('aria-label', `Switch to ${nextTheme} theme`);
+      button.setAttribute('title', `Switch to ${nextTheme} theme`);
+    });
+  };
+
+  document.querySelectorAll<HTMLButtonElement>('.theme-toggle').forEach(button => {
+    button.addEventListener('click', () => {
+      const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem('theme', next);
+      syncThemeToggleLabels();
+    });
+  });
+
+  syncThemeToggleLabels();
+</script>

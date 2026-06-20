@@ -1,0 +1,20 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HomePage from '../components/HomePage.astro';
+import commitCoinImage from '../../content/featured/CommitCoin/commitcoin.png?url';
+import reelImage from '../../content/featured/Reel.fyi/reel.png?url';
+import spotifyImage from '../../content/featured/PiChiSpotifyWrapped/pcsw.png?url';
+
+const jobs = (await getCollection('jobs')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const projects = (await getCollection('featured')).sort((a, b) => b.data.date - a.data.date);
+const images = {
+  'Commit Coin': commitCoinImage,
+  'Reel.fyi': reelImage,
+  'Pi Chi Spotify Wrapped': spotifyImage,
+};
+---
+
+<BaseLayout>
+  <HomePage jobs={jobs} projects={projects} images={images} />
+</BaseLayout>
