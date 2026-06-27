@@ -1,7 +1,7 @@
 export const site = {
   name: 'Yesh Chandiramani',
   shortName: 'YC',
-  title: 'Yesh Chandiramani — Software Engineer',
+  title: 'Yesh Chandiramani - Builder',
   description:
     'Yesh Chandiramani is a software engineer in New York building AI-powered products.',
   email: 'yeshc0907 at gmail dot com',
