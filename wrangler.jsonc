@@ -5,6 +5,10 @@
   "compatibility_flags": ["nodejs_compat"],
   "workers_dev": true,
   "preview_urls": true,
+  "routes": [
+    { "pattern": "yeshc.dev", "custom_domain": true },
+    { "pattern": "www.yeshc.dev", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./dist",
     "not_found_handling": "404-page"

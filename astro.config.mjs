@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://mysite.yeshc.workers.dev',
+  site: 'https://yeshc.dev',
   publicDir: './static',
   integrations: [mdx(), sitemap()],
   vite: {

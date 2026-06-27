@@ -1,8 +1,8 @@
-# yeshc.me
+# yeshc.dev
 
 Personal site for Yesh Chandiramani, rebuilt with Astro, TypeScript, Tailwind CSS, and Cloudflare Workers Static Assets.
 
-The site is deployed at [mysite.yeshc.workers.dev](https://mysite.yeshc.workers.dev).
+The site is deployed at [yeshc.dev](https://yeshc.dev), with [mysite.yeshc.workers.dev](https://mysite.yeshc.workers.dev) kept as the Workers preview URL.
 
 ## Development
 
