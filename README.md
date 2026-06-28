@@ -19,4 +19,8 @@ pnpm build
 pnpm deploy:dry-run
 ```
 
-Production deployments run from `main`. Pull requests upload versioned Worker previews. Both workflows require `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repository secrets.
+Deployments are manual for now:
+
+```sh
+pnpm deploy
+```
