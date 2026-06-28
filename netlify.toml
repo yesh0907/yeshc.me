@@ -1,0 +1,9 @@
+[build]
+  command = "echo 'Redirecting yeshc.me to yeshc.dev'"
+  publish = "static"
+
+[[redirects]]
+  from = "/*"
+  to = "https://yeshc.dev/:splat"
+  status = 301
+  force = true
